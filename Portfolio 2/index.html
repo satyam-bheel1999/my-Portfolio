@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Satyam.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi,I'm <span>Satyam Bheel</span><br>from India</h1>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <!-- -------------about------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, My name is Satyam Bheel and i belongs to Udaipur,Rajasthan.
+                        I had completed my Btech from ACEIT Jaipur in a ECE branch. Currently
+                        i am working in Shree Vikavas Mataji pvt ltd as a Team Leader for Data Analyst
+                        department. a company who is supporting to australian supermarkets from
+                        back end since last 10 years.
+
+                        And i am a Freelancer Front End Developer.
+
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Front End Developer</span><br>
+                            HTML<br>CSS<br>JAVASCRIPT</li>
+                        </ul>
+                        
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Team Leader at Bussines solution company</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2021</span><br>Btech </li>
+                            <li><span>2016 - 2017</span><br>12th RBSE</li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
